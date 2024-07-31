@@ -1,0 +1,20 @@
+*{
+    background-color: blue;
+  }
+  
+  .home-container h1 {
+    color: rgb(208, 179, 245);
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .home-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for button */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+  }
+ 

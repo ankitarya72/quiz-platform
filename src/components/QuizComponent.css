@@ -1,0 +1,59 @@
+/* src/QuizComponent.css */
+.quiz-container {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .timer {
+    color: aqua;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .question-section {
+    margin: 20px 0;
+  }
+  
+  .question-block {
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 24px;
+  }
+  
+  .options-section {
+    margin: 10px 0;
+  }
+  
+  .option-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .option-button.selected {
+    background-color: #d3d3d3;
+  }
+  
+  .score-section {
+    font-size: 24px;
+    margin: 250px 100px;
+  }
+
+  .score-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for button */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
